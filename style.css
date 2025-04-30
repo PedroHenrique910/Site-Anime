@@ -1,0 +1,26 @@
+body{
+    background: url(imagens/fundo-preto.avif);
+}
+
+#menu {
+    background: #16395c;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#imagem-principal{
+    width: 1335px;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
