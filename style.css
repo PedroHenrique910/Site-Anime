@@ -6,6 +6,11 @@ body {
   background: url(imagens/fundo-preto.avif);
 }
 
+#conteudo{
+  background: black;
+  height: 600px;
+}
+
 #menu {
   background: #16395c;
   font-weight: bold;
@@ -24,6 +29,7 @@ a {
   color: #ffffff;
   padding: 5px;
 
+
   
 }
 
@@ -36,7 +42,9 @@ a {
 
 .personagens {
   width: 300px;
-  background-position: center center;
-  text-align: center;
-  background-position: center;
 }
+
+.imagens{
+  text-align: center;
+}
+
