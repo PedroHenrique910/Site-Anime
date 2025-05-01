@@ -3,18 +3,19 @@
 }
 
 body {
-  background: url(imagens/fundo-preto.avif);
+  background-image: url(imagens/fundo-preto.avif);
+  background-size: cover;
+  background-position: center;
 }
 
-#conteudo{
+#conteudo {
   background: black;
-  height: 600px;
 }
 
 #menu {
   background: #16395c;
   font-weight: bold;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -27,24 +28,26 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #ffffff;
-  padding: 5px;
-
-
-  
+  padding: 15px;
 }
 
 #rodape {
   text-align: center;
-  font-weight: bold;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.personagens {
+.tamanho_personagens {
   width: 300px;
 }
 
-.imagens{
+.imagens {
   text-align: center;
+  padding: 20px;
 }
-
+#select{
+  background-color: #072747;
+  width: 300px;
+  color: #ffffff;
+  padding: 7px;
+}
