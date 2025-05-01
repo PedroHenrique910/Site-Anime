@@ -1,5 +1,6 @@
 #principal {
   width: 1000px;
+  margin-left: 80px;
 }
 
 body {
@@ -10,6 +11,8 @@ body {
 
 #conteudo {
   background: black;
+  width: 1000px;
+  margin-left: 80px;
 }
 
 #menu {
@@ -17,6 +20,8 @@ body {
   font-weight: bold;
   padding: 30px;
   text-align: center;
+  margin-left: 80px;
+  width: 940px;
 }
 
 a {
@@ -35,6 +40,7 @@ a {
   text-align: center;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 230px;
 }
 
 .tamanho_personagens {
@@ -45,9 +51,10 @@ a {
   text-align: center;
   padding: 20px;
 }
-#select{
+#select {
   background-color: #072747;
-  width: 300px;
+  width: 500px;
   color: #ffffff;
   padding: 7px;
+  margin-left: 80px;
 }
