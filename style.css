@@ -25,9 +25,21 @@ body {
 }
 
 a {
-  color: white;
   text-decoration: none;
   padding: 10px;
+}
+
+a:link,
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: #ffffff;
 }
 
 .descricao {
