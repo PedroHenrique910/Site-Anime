@@ -4,6 +4,8 @@
 }
 
 body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-image: url(imagens/fundo-preto.avif);
   background-size: cover;
   background-position: center;
@@ -64,10 +66,13 @@ a:active {
   text-align: center;
   padding: 20px;
 }
-#select {
+.select {
   background-color: #072747;
-  width: 500px;
+  width: 98%;
   color: #ffffff;
   padding: 7px;
   margin-left: 80px;
+  
 }
+
+.select 

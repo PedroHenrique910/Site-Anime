@@ -24,10 +24,10 @@
         <img src="imagens/imagem-principal.jpeg" alt="" id="principal">
 
         <form>
-            <div id="select">
+            <div class="select">
                 De onde você assiste Demon Slayer?
-                <select name="">
-                    <option value="sp">SP</option>
+                <select name="select" class="select">
+                    <option value=" sp">SP</option>
                     <option value="sp">AL</option>
                     <option value="sp">MG</option>
                     <option value="sp">ES</option>
@@ -35,10 +35,12 @@
 
                 </select>
 
-                <br><br>
-                Comentário:<br>
-                <textarea name="comentario" id=""></textarea>
-                <br><input type="submit" value="Enviar">
+                <div id="comentario">
+                    Comentário:
+                    <textarea class="aba-conversa" name="aba-conversa" id="aba-conversa"></textarea>
+                    <br><input type="submit" value="Enviar">
+                </div>
+
             </div>
         </form>
 
